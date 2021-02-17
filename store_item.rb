@@ -11,9 +11,9 @@ class Items
   attr_writer :inventory
 
   def initialize (input_options)
-    @item = input_options[:input_item]
-    @price = input_options[:input_price]
-    @inventory = input_options[:input_inventory]
+    @item = input_options[:item]
+    @price = input_options[:price]
+    @inventory = input_options[:inventory]
   end
 
   def print_info
@@ -22,7 +22,7 @@ class Items
 
 end
 
-itemA = Items.new({input_item: "photograph", input_price: 50, input_inventory: 12})
+itemA = Items.new({item: "photograph", price: 50, inventory: 12})
 
 itemA.print_info
 
