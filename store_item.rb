@@ -23,6 +23,9 @@ class Items
 end
 
 itemA = Items.new({item: "photograph", price: 50, inventory: 12})
+itemB = Items.new({item: "gift bag", price: 25, inventory: 45})
 
 itemA.print_info
+itemB.print_info
+
 
