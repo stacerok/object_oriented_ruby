@@ -3,3 +3,17 @@ itemB = {item: "postcard", price: 10, inventory: 40}
 itemC = {:item => "gift bag", :price => 25, :inventory => 35}
 
 puts itemA[:item]
+
+# Using Class for Information
+
+class Items
+  attr_reader :photograph, :price
+  attr_writer :inventory
+
+  def initialize (input_item, input_price, input_inventory)
+    @item = input_item
+    @price = input_price
+    @inventory = input_inventory
+  end
+
+end
