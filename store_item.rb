@@ -22,6 +22,10 @@ class Items
 
 end
 
+
+class Food
+  
+
 itemA = Items.new({item: "photograph", price: 50, inventory: 12})
 itemB = Items.new({item: "gift bag", price: 25, inventory: 45})
 
